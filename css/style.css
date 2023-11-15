@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* 共通部分
+-----------------------------------------  */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Hina Mincho', serif;
+    line-height: 1.7;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* HEADER
+-------------------- */
+header {
+    width: 100%;
+    background-color: #2a1414;
+    padding: 10px 4% 10px;
+}
+.logo_w {
+    width: 130px;
+    margin-top: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+.main-nav li {
+    margin-right: 36px;
+}
+.main-nav a {
+    color: #ebe0e2;
+}
+.main-nav a:hover {
+    color: #ac4473;
+}
+/* CONTENT
+------------------------ */
+body {
+    background-image: url(../images/BG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content img {
+    background-size:cover;
+}
+
+
+.gaiyo {
+    position: relative;
+}
+.gaiyo img {
+    padding-left: 130px;
+}
+.kinu {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 2rem;
+    color: #2a1414;
+}
+.kona {
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 1rem;
+    color: #2a1414;
+}
+
+.aru {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 1rem;
+    color: #2a1414;
+}
+
+.co {
+    position: absolute;
+    top: 73%;
+    left: 60%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 1.5rem;
+    color: #2a1414;
+}
+
+/* FOOTER
+----------------- */
+footer {
+    background-color: #2a1414;
+    text-align: center;
+    padding:35px 0
+}
+footer p{
+    color: #fff;
+    font-size: 0.8rem;
+}
